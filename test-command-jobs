@@ -3,4 +3,5 @@ set -euo pipefail
 
 . "$HOME"/pwbvenv/bin/activate
 
-python3 "$HOME"/welcome3.py
+python3 "$HOME"/welcome3.py \
+    -break
