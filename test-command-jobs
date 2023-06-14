@@ -1,0 +1,7 @@
+#!/bin/bash
+set -euo pipefail
+
+. "$HOME"/pwbvenv/bin/activate
+
+python3 "$HOME"/welcome3.py \
+   -limit:50
