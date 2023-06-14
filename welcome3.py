@@ -137,7 +137,7 @@ class Global:
     offset = None           # skip users newer than that timestamp
     timeoffset = 0          # skip users newer than # minutes
     recursive = True        # define if the Bot is recursive or not
-    timeRecur = 3600        # how much time (sec.) the bot waits before restart
+    timeRecur = 60        # how much time (sec.) the bot waits before restart
     makeWelcomeLog = True   # create the welcome log or not
     confirm = False         # should bot ask to add user to bad-username list
     welcomeAuto = False     # should bot welcome auto-created users
