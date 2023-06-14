@@ -7,5 +7,4 @@
   retry: 5
 - name: welcome
   command: $HOME/pywikibot-core/scripts/keo010122bot/test-command-jobs
-  schedule: '* * * * *'
   <<: *defaults
