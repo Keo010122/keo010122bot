@@ -1,5 +1,11 @@
-- name: welcome
+- &defaults
+  name: dummy-defaults-job
+  command: echo this is a dummy job to set defaults
+  emails: onfailure
   image: python3.9
+  no-filelog: true
+  retry: 5
+- name: welcome
   command: $HOME/pywikibot-core/scripts/keo010122bot/test-command-jobs
-  emails: none
   schedule: '* * * * *'
+  <<: *defaults
