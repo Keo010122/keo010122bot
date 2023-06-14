@@ -1,4 +1,4 @@
 - name: welcome
   image: python3.9
-  command: $HOME/pywikibot-core/scripts/keo010122bot/test-command-jobs
+  command: $HOME/keo010122bot/test-command-jobs
   emails: none
